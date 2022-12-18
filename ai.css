@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  header img {
+    width: 120px;
+    height: auto;
+  }
+  
+  header nav {
+    display: flex;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  header nav ul li a:hover {
+    color: #ccc;
+  }
+  
+  main {
+    display: flex;
+  }
+  
+  main section {
+    width: 75%;
+    padding: 20px;
+  }
+  
+  main section h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  main section p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  main section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  main section ul li {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  main section ul li img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  main section ul li h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  main section ul li p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  main section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main section form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  main section form input,
+  main section form textarea {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  main section form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  aside {
+    width: 25%;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  aside h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
